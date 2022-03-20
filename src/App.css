@@ -53,3 +53,17 @@
   display: flex;
   flex-direction: row;
 }
+
+@media screen and (max-width: 768px) { 
+  .side-left {
+    display: none;
+  }
+  
+  .side-right {
+    display: none;
+  }
+
+  .container { 
+    background-position: center;
+  }
+}

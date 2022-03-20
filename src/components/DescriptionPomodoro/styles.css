@@ -21,3 +21,9 @@
     height: 100%;
     border-radius: 15px;
 }
+
+@media screen and (max-width: 768px) { 
+    .description-pomodoro {
+        padding: 0rem 2rem;
+    }
+}
